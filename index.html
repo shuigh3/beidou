@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>北斗之星公益服务器</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- portfolio -->	
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<!-- //portfolio -->	
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="beidou.ico" type="image/x-icon">
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="index.html">Games <span>Hub</span></a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="#about" class="scroll">About</a></li>
+										<li><a href="#gallery" class="scroll">Our Sever</a></li>
+										<li><a href="#team" class="scroll">Team</a></li>
+										<li><a href="#blog" class="scroll">Logs</a></li>
+										<li><a href="#mail" class="scroll">Emil</a></li>
+									</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>Big Dipper</h3>
+												<p>This is our Minecraft server home page</p>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>北斗之星</h3>
+												<p>这是我们的Minecraft服务器主页</p>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">了解更多</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about"> 
+		<div class="container"> 
+			<div class="welcome">
+				<div class="agileits-title"> 
+					<h2>Welcome</h2>
+					<p>这是属于我们的Minecraft公益小游戏服务器，这一的一切东西是免费的！</p>
+				</div>
+			</div>
+			<div class="about-w3lsrow"> 
+				<div class="col-md-7 col-sm-7 w3about-img"> 
+					<div class="w3about-text"> 
+						<h5 class="w3l-subtitle">- 关于我们</h5>
+						<p>我们只是一群热爱Minecraft 的青少年，出自爱好制作这款服务器，你可以在下方找到我们的制作人员（志愿者）名单</p>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about --> 
+	<!-- markets -->
+	<div class="markets" id="markets">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Our Information</h3>
+			</div>
+			<div class="markets-grids">
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>游戏版本/服务器内核/环境</h5>
+							<p>1.12.2/Spigot/Java8</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-trophy" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>游戏模式</h5>
+							<p>冒险模式/允许破解版/应用命令块/允许飞行</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>插件涉及</h5>
+							<p>AuthMe/ChestCommands/Music/Placeholder API</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>服务器资源包</h5>
+							<p>Music_-_TestPack(不定期更改)</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-comments" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>服务器使用</h5>
+							<p>EXAROTON</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>服务器ip</h5>
+							<p>beidou.playmc.fun:25565(固定ip)</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //markets -->
+	<!-- portfolio -->
+	<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Our Sever</h3> 
+			</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">大体</li>
+				<li class="w3layouts agileits" data-filter="1">起床</li>
+				<li class="w3layouts agileits" data-filter="2">空岛</li>
+				<li class="w3layouts agileits" data-filter="3">pvp</li>
+				<li class="w3layouts agileits" data-filter="4">小游戏</li>
+				<li class="w3layouts agileits" data-filter="5">生存</li>
+			</ul>
+
+			<div class="filtr-container w3layouts agileits">
+
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
+					<a href="images/p1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
+					<a href="images/p2.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p2.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
+					<a href="images/p3.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p3.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
+					<a href="images/p4.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p4.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
+					<a href="images/p5.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p5.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="images/p6.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p6.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 5" data-sort="City lights">
+					<a href="images/p7.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p7.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p8.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p8.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //portfolio -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Games <span>Hub</span></h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/1.jpg" alt="" />
+						<p>1.12.2公益小游戏插件服 所有客户端均可直接进入
++新服开设-2023.1.6开启
++玩家友善 互相帮助
++管理热心 服务器趋于完善
++长期更新新内容玩法
+我们立志做最温暖的MC服务器
+欢迎您的加入！</p>
+<p>1.12.2 Public Welfare Mini Game Plug-in Service All clients can enter directly
++New service opened-2023.1.6 open
++ Player friendly Help each other
++ Enthusiastic management The server tends to be perfect
++ Long-term updates with new content gameplay
+We aspire to be the warmest MC server
+</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- testimonial -->
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading"> 
+					<h3>Volunteer</h3> 
+				</div>
+				<div class="w3-agile-testimonial">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider3">
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts1.jpg" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts2.jpg" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts3.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Nunc interdum elit nec sapien vehicula, ut blandit nulla ultrices. Sed ullamcorper metus eget efficitur rutrum. Aliquam a nunc odio. Aenean fermentum finibus efficitur.</p>
+										<h5>Peter Guptill</h5>
+										<h6>Proin blandit</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts2.jpg" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts3.jpg" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts1.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Morbi est est, mollis id diam a, pellentesque dignissim lorem. Sed malesuada sed lacus sit amet vestibulum. Sed nibh purus, egestas eu orci vel, mollis interdum orci.</p>
+										<h5>Mary Jane</h5>
+										<h6>Lorem ipsum</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts3.jpg" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts1.jpg" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts2.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Proin blandit rhoncus metus porta tristique. Praesent suscipit in erat a tempor. Nullam tempor lectus ex, a auctor orci ultricies ac. Mauris sapien neque, condimentum sit</p>
+										<h5>Steven Wilson</h5>
+										<h6>Proin blandit</h6>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider3").responsiveSlides({
+										auto: true,
+										pager:false,
+										nav:false,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+						</script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //testimonial -->
+	<!-- team -->
+	<div class="team" id="team">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Amazing Team</h3> 
+			</div>
+			<div class="agileits-team-grids">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t1.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>Peter Parker</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t2.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>Johan Botha</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t3.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>Justo Congue</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t4.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>Steven Wilson</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- blog -->
+	<div id="blog" class="blog">
+		<div class="container"> 
+			<div class="agileits-title">
+				<h3>Our Logs</h3>
+			</div> 
+			<div class="wthree-blog-grids">
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>-/-</h4>
+						<ul>
+							<li>发表于 : <a href="#">-</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">-</a>
+						<p>-</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>6/1/2023</h4>
+						<ul>
+							<li>发表于 : <a href="#">管理员</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">今天，我们伟大的北斗之星服务器成立了</a>
+						<p>抱着这份决心，我会继续把这个服务器做下去，也期待着其他人的加入</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //blog -->
+	<!-- mail -->
+	<div class="mail" id="mail">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>邮箱</h3>
+			</div> 
+			<div class="w3_mail_grids">
+				<form action="#" method="post">
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-10" name="Name" placeholder="Your Name" required=""/>
+						<label class="input__label input__label--jiro" for="input-10">
+							<span class="input__label-content input__label-content--jiro">Your Name</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="email" id="input-11" name="Email" placeholder="Your Email Address" required=""/>
+						<label class="input__label input__label--jiro" for="input-11">
+							<span class="input__label-content input__label-content--jiro">Your Email</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone Number" placeholder="Phone Number" required=""/>
+						<label class="input__label input__label--jiro" for="input-12">
+							<span class="input__label-content input__label-content--jiro">Phone Number</span>
+						</label>
+					</span>
+					<textarea name="Message" placeholder="Message..." required=""></textarea>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/classie.js"></script>
+	<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+	<!-- //mail -->
+	<!-- contact -->
+	<div id="contact" class="contact">
+		<div class="contact-row agileits-w3layouts">  
+			<div class="col-md-5 contact-w3lsleft map">
+				<!---<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.948805392833!2d-73.99619098458929!3d40.71914347933105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1479793484055"></iframe>--->
+			</div>
+			<div class="col-md-7 contact-w3lsright">
+				<h6>       在此鸣谢地图/插件的捐赠者，感谢Hypixel的地图使用权，尤其感谢以下人员：。然而，服务器使用的部分地图暂时还没有找到相关的联系人，如有侵权，还望告知，尽快删除，感谢您的理解！</h6>
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>拜访我们</h5>
+						<p>没有地址，我们没有工作室！ </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-xs-6 address-row w3-agileits">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Mail Us</h5>
+						<p><a href="shuigh3@163.com">shuigh3@163.com </a></p>
+						<p><a href="shuigh3@qq.com"> shuigh3@qq.com(备用邮箱)</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>QQ/微信号</h5>
+						<p>2479964275<br></p>
+						<p>nizigoujiaoshenme_z</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div> 
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>在线时间</h5>
+						<p>周一-周五8：00-10：00/周末7：00-22：00<br>
+						假日不定</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>	
+			</div>
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!-- //contact -->  
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed"> 
+					<div class="footer-title">
+						<h3>About Us</h3>
+					</div> 
+					<p>我们的服务器部分小游戏选取了Minecraft Maps里面的优良地图，并对其进行了汉化处理。再次声明：我们中添加的其他作者的地图，都是注明作者、转载的，如有侵权，还望联系</p>
+				</div>
+				<div class="col-md-4 amet-sed amet-medium">
+					<div class="footer-title">
+						<h3>About Plugs/Sponsor</h3>
+					</div> 
+					<p> 我们的服务器严厉打击外挂，若有发现，可通过以上方式进行举报，我们会立即处理！</p>
+					<p><a href="#">https://pixelcloud.cn/servers/63b7659da5006e0035bde524</a> 你可以在如上地址对我们的公益服务器进行赞助，赞助时留下您的游戏名，我们会赠送您一份不菲的礼包。</p>
+				</div>
+				<div class="col-md-4 amet-sed ">
+					<div class="footer-title">
+						<h3>Follow Us</h3>
+					</div> 
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+					<div class="support">
+						<form action="#" method="post">
+							<input type="email" placeholder="输入邮箱...." required=""> 
+							<input type="submit" value="订阅" class="botton">
+						</form> 
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer --> 
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://php.cn/">php中文网</a></p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //Tabs-JavaScript -->
+	<!-- PopUp-Box-JavaScript -->
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	<!-- //PopUp-Box-JavaScript -->
+</body>	
+</html>
